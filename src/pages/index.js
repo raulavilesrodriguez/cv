@@ -349,11 +349,11 @@ const IndexPage = () => (
           <ul className="fa-ul mb-0">
             <li>
               <i className="fa-li fa fa-trophy text-warning"></i>
-              CS50W: CS50's Web Programming with Python and JavaScript. A course of study offered by Harvard - 2021
+              CS50W: CS50's Web Programming with Python and JavaScript. A course of study offered by Harvard University - 2021
             </li>
             <li>
               <i className="fa-li fa fa-trophy text-warning"></i>
-              CS50: CS50's Introduction to Computer Science. A course of study offered by Harvard - 2021
+              CS50: CS50's Introduction to Computer Science. A course of study offered by Harvard University - 2021
             </li>
             <li>
               <i className="fa-li fa fa-trophy text-warning"></i><sup></sup>
