@@ -169,6 +169,55 @@ const IndexPage = () => (
             </div>
           </div>
 
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
+            <div className="resume-content">
+              <h3 className="mb-0">Finance Consultant</h3>
+              <div className="subheading mb-3">Copa Airlines - Panamá</div>
+              <p>
+                I did a consultancy whose purpose was to reduce costs in the management of technical 
+                purchases. With my work team we made significant reductions in landing gear, brake 
+                and tire contract costs.
+              </p>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">Oct 2009 - Dic 2009</span>
+            </div>
+          </div>
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
+            <div className="resume-content">
+              <h3 className="mb-0">Engineer in telephony and networking networks</h3>
+              <div className="subheading mb-3">CNT E.P.</div>
+              <p>
+                I supervised and carried out installations of 87 Lucent telephone exchanges in different 
+                provinces of Ecuador. I performed the administration of users of telephone exchanges of 
+                Samsung, Lucent, ZTE technologies, which consisted of technical support in 
+                hardware / software, and preventive maintenance. I also managed the IP data network 
+                that remotely controls the Lucent digital exchanges.
+              </p>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">May 2005 - Ago 2008</span>
+            </div>
+          </div>
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
+            <div className="resume-content">
+              <h3 className="mb-0">Telecommunications engineer in radio</h3>
+              <div className="subheading mb-3">Televisión del Pacífico</div>
+              <p>
+                I was responsible for the realization of several satellite communications (transmission 
+                and reception via satellite), links via microwave, configuration of the new data network 
+                through CISCO teams where I demonstrated my organizational and planning skills.
+                Perform maintenance of electronic equipment and technical support, offering solutions for 
+                both internal and external customers within the television environment.
+              </p>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">Jun 2003 - Jul 2005</span>
+            </div>
+          </div>
+
         </div>
       </section>
 
