@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
+import avatar from '../assets/images/avatar.png';
 
 // import { Link } from 'gatsby';
 import Sidebar from '../components/Sidebar';
@@ -15,18 +16,27 @@ const IndexPage = () => (
       >
         <div className="w-100">
           <h1 className="mb-0">
-            {config.firstName}
-            <span className="text-primary">{config.lastName}</span>
+              {config.firstName}
+              <span className="text-primary"> {config.lastName}</span>
           </h1>
+          <div className="media p-3">
+            <img
+                className="ml-3 mt-3 img-profile rounded-circle foto"
+                src={avatar}
+                alt=""
+              />
+            <div className="media-body">
+            </div>
+          </div>
+
           <div className="subheading mb-5">
             {config.address} · {config.phone} ·
             <a href={`mailto:${config.email}`}>{config.email}</a>
           </div>
           <p className="lead mb-5">
-            I am experienced in leveraging agile frameworks to provide a robust
-            synopsis for high level overviews. Iterative approaches to corporate
-            strategy foster collaborative thinking to further the overall value
-            proposition.
+          I have experience in high-level business and economic analysis. 
+          To achieve the stated objectives I have used knowledge of computer science, 
+          mathematics, and business to promote the overall value proposition.
           </p>
           <div className="social-icons">
             {config.socialLinks.map(social => {
@@ -52,71 +62,113 @@ const IndexPage = () => (
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Senior Web Developer</h3>
-              <div className="subheading mb-3">Intelitec Solutions</div>
+              <h3 className="mb-0">Consultor</h3>
+              <div className="subheading mb-3">Independent</div>
               <p>
-                Bring to the table win-win survival strategies to ensure
-                proactive domination. At the end of the day, going forward, a
-                new normal that has evolved from generation X is on the runway
-                heading towards a streamlined cloud solution. User generated
-                content in real-time will have multiple touchpoints for
-                offshoring.
+              Design and implementation of web apps with Python, JavaScript, and SQL using frameworks 
+              like Django (back end), React, and Bootstrap. Implementation with Redux. 
+              (https://segurosideal.netlify.app/ https://segurosideal.herokuapp.com/)
+              Database construction in SQL, postgresql, sqlite. Advanced handling of excel.
+              Backend programming through nodejs (API Rest). (example: https://seguros-back.herokuapp.com/)
+              Programming in python, Flask, django, javascript, html, CSS, SASS (front end). 
+              Management of Heroku, GIT.
+              Data mining through python (web app example: https://entaciónrtelecom.herokuapp.com/)
+              Financial, investment and market evaluation to obtain the greatest economic benefit for clients. 
+              Focused on project analysis using financial economic criteria such as Net Present Value, 
+              Internal Rate of Return, profit margins.
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">March 2013 - Present</span>
+              <span className="text-primary">Oct 2018 - Present</span>
             </div>
           </div>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Web Developer</h3>
-              <div className="subheading mb-3">Intelitec Solutions</div>
+              <h3 className="mb-0">Regional Intendant</h3>
+              <div className="subheading mb-3">Arcotel</div>
               <p>
-                Capitalize on low hanging fruit to identify a ballpark value
-                added activity to beta test. Override the digital divide with
-                additional clickthroughs from DevOps. Nanotechnology immersion
-                along the information highway will close the loop on focusing
-                solely on the bottom line.
+              Management and database design in excel and sql.
+              In charge of the execution and supervision of administrative 
+              sanctioning procedures for telecommunications companies.
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">December 2011 - March 2013</span>
+              <span className="text-primary">Ago 2017 - Sept 2018</span>
             </div>
           </div>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Junior Web Designer</h3>
-              <div className="subheading mb-3">Shout! Media Productions</div>
+              <h3 className="mb-0">Technical director</h3>
+              <div className="subheading mb-3">Arcotel</div>
               <p>
-                Podcasting operational change management inside of workflows to
-                establish a framework. Taking seamless key performance
-                indicators offline to maximise the long tail. Keeping your eye
-                on the ball while performing a deep dive on the start-up
-                mentality to derive convergence on cross-platform integration.
+                Advanced excel management.
+                Database construction in SQL.
+                In charge of carrying out the economic projection of the budget of the 
+                Technical Direction considering risk criteria and expenditure trends from previous years.
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">July 2010 - December 2011</span>
+              <span className="text-primary">Ago 2016 - Ago 2017</span>
             </div>
           </div>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
             <div className="resume-content">
-              <h3 className="mb-0">Web Design Intern</h3>
-              <div className="subheading mb-3">Shout! Media Productions</div>
+              <h3 className="mb-0">Director in Evaluation of Telecommunications Companies</h3>
+              <div className="subheading mb-3">MINTEL</div>
               <p>
-                Collaboratively administrate empowered markets via plug-and-play
-                networks. Dynamically procrastinate B2C users after installed
-                base benefits. Dramatically visualize customer directed
-                convergence without revolutionary ROI.
+                Database management through excel and sql.
+                I was in charge of the supervision and evaluation direction of telecommunications 
+                companies at MINTEL, where I led, coordinated and carried out the financial, economic 
+                and market evaluation analysis of telecommunications companies. Additionally, 
+                I was one of the delegates to analyze the topics proposed in the Arcotel and CNT E.P.
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">September 2008 - June 2010</span>
+              <span className="text-primary">Oct 2014 - Jul 2016</span>
             </div>
           </div>
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
+            <div className="resume-content">
+              <h3 className="mb-0">Institutional Advisor</h3>
+              <div className="subheading mb-3">SENATEL</div>
+              <p>
+              Database management through excel and sql.
+              I worked in the Planning Directorate where I worked as Institutional Advisor, 
+              where I was in charge of the technical-economic analysis of several projects 
+              that were executed for the institution, such as, for example, I performed statistical 
+              analyzes to find the correlation of variables and determine relationships mathematics 
+              (business intelligence), I performed the valuation of telecommunications companies for 
+              the collection of concession fees.
+              In this position, I also performed the analysis of technical, economic and financial 
+              information, in order to create reports on the current environment and trends in the 
+              telecommunications industry for decision making (KPI's).
+              </p>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">Feb 2012 - Sept 2014</span>
+            </div>
+          </div>
+          
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
+            <div className="resume-content">
+              <h3 className="mb-0">Senior Marketing Analyst</h3>
+              <div className="subheading mb-3">CNT E.P.</div>
+              <p>
+                I worked in the Strategic Marketing Management where I worked as a senior analyst 
+                of segments and products in the corporate area where I was in charge of the development 
+                of various products and services: such as internet and data through the VSAT satellite 
+                network, virtual central, development of customized solutions for corporate clients.
+              </p>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">May 2010 - Feb 2012</span>
+            </div>
+          </div>
+
         </div>
       </section>
 
@@ -131,24 +183,24 @@ const IndexPage = () => (
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">University of Colorado Boulder</h3>
-              <div className="subheading mb-3">Bachelor of Science</div>
-              <div>Computer Science - Web Development Track</div>
-              <p>GPA: 3.23</p>
+              <h3 className="mb-0">INCAE - Costa Rica</h3>
+              <div className="subheading mb-3">MBA</div>
+              <div>Finance and Economics</div>
+              <p>Business Specialization</p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">August 2006 - May 2010</span>
+              <span className="text-primary">May 2008 - May 2010</span>
             </div>
           </div>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
             <div className="resume-content">
-              <h3 className="mb-0">James Buchanan High School</h3>
-              <div className="subheading mb-3">Technology Magnet Program</div>
-              <p>GPA: 3.56</p>
+              <h3 className="mb-0">Escuela Politécnica Nacional - Ecuador</h3>
+              <div className="subheading mb-3">Electronics and Telecommunications Engineering</div>
+              <p>Technology Specialization</p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">August 2002 - May 2006</span>
+              <span className="text-primary">August 1998 - May 2003</span>
             </div>
           </div>
         </div>
@@ -177,9 +229,6 @@ const IndexPage = () => (
               <i className="fab fa-js-square"></i>
             </li>
             <li className="list-inline-item">
-              <i className="fab fa-angular"></i>
-            </li>
-            <li className="list-inline-item">
               <i className="fab fa-react"></i>
             </li>
             <li className="list-inline-item">
@@ -187,9 +236,6 @@ const IndexPage = () => (
             </li>
             <li className="list-inline-item">
               <i className="fab fa-sass"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-less"></i>
             </li>
             <li className="list-inline-item">
               <i className="fab fa-wordpress"></i>
@@ -213,7 +259,7 @@ const IndexPage = () => (
             </li>
             <li>
               <i className="fa-li fa fa-check"></i>
-              Cross Browser Testing &amp; Debugging
+              Functional tests &amp; Debugging
             </li>
             <li>
               <i className="fa-li fa fa-check"></i>
@@ -221,7 +267,7 @@ const IndexPage = () => (
             </li>
             <li>
               <i className="fa-li fa fa-check"></i>
-              Agile Development &amp; Scrum
+              Agile Development &amp; Autodidact
             </li>
           </ul>
         </div>
@@ -236,16 +282,12 @@ const IndexPage = () => (
         <div className="w-100">
           <h2 className="mb-5">Interests</h2>
           <p>
-            Apart from being a web developer, I enjoy most of my time being
-            outdoors. In the winter, I am an avid skier and novice ice climber.
-            During the warmer months here in Colorado, I enjoy mountain biking,
-            free climbing, and kayaking.
+            Apart from my passion for technology, I like sports, lifting weights and running outdoors. 
+            I like to read character bio books like Einstein and business books like Starbucks Challenge.
           </p>
           <p className="mb-0">
-            When forced indoors, I follow a number of sci-fi and fantasy genre
-            movies and television shows, I am an aspiring chef, and I spend a
-            large amount of my free time exploring the latest technology
-            advancements in the front-end web development world.
+            When I am at home I like to learn new cooking recipes, repair things around the house and 
+            learn new computer science topics such as Artificial Intelligence.
           </p>
         </div>
       </section>
@@ -254,41 +296,40 @@ const IndexPage = () => (
 
       <section
         className="resume-section p-3 p-lg-5 d-flex align-items-center"
-        id="awards"
+        id="awards1"
       >
         <div className="w-100">
-          <h2 className="mb-5">Awards &amp; Certifications</h2>
+          <h2 className="mb-5">Certifications</h2>
           <ul className="fa-ul mb-0">
             <li>
               <i className="fa-li fa fa-trophy text-warning"></i>
-              Google Analytics Certified Developer
+              CS50W: CS50's Web Programming with Python and JavaScript. A course of study offered by Harvard - 2021
             </li>
             <li>
               <i className="fa-li fa fa-trophy text-warning"></i>
-              Mobile Web Specialist - Google Certification
+              CS50: CS50's Introduction to Computer Science. A course of study offered by Harvard - 2021
             </li>
             <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>1<sup>st</sup>
-              Place - University of Colorado Boulder - Emerging Tech Competition
-              2009
+              <i className="fa-li fa fa-trophy text-warning"></i><sup></sup>
+              Opportunities and Risks of 5G Networks - United States Department of State - 2021
             </li>
             <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>1<sup>st</sup>
-              Place - University of Colorado Boulder - Adobe Creative Jam 2008
-              (UI Design Category)
+              <i className="fa-li fa fa-trophy text-warning"></i><sup></sup>
+              PMBOK-based Project Management Fundamentals
             </li>
             <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>2<sup>nd</sup>
-              Place - University of Colorado Boulder - Emerging Tech Competition
-              2008
+              <i className="fa-li fa fa-trophy text-warning"></i><sup></sup>
+              Advanced Level Training on cost model and pricing for the Spanish-speaking 
+              countries of America - UIT
+              (Santiago de Chile)
             </li>
             <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>1<sup>st</sup>
-              Place - James Buchanan High School - Hackathon 2006
+              <i className="fa-li fa fa-trophy text-warning"></i><sup></sup>
+              CCNA certificate from CISCO SYSTEM, as an expert in Internetworking
             </li>
             <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>3<sup>rd</sup>
-              Place - James Buchanan High School - Hackathon 2005
+              <i className="fa-li fa fa-trophy text-warning"></i><sup></sup>
+              Spectrum Assessment Course in mobile networks - UIT - 2021
             </li>
           </ul>
         </div>

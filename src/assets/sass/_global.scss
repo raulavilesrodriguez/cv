@@ -4,6 +4,7 @@ body {
   @include body-font;
   padding-top: 54px;
   color: $gray-600;
+  background-color: $black;
 }
 @media (min-width: 992px) {
   body {
@@ -78,3 +79,17 @@ p.lead {
     }
   }
 }
+
+.foto {
+  max-width: 15rem;
+  max-height: 15rem;
+  border: 0.5rem solid fade-out($white, 0.8);
+}
+
+@media (min-width: 992px) {
+  .foto {
+    display: none;
+  }
+}
+
+
