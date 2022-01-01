@@ -72,7 +72,7 @@ const IndexPage = () => (
               Backend programming through nodejs (API Rest). (example: https://seguros-back.herokuapp.com/)
               Programming in python, Flask, django, javascript, html, CSS, SASS (front end). 
               Management of Heroku, GIT.
-              Data mining through python (web app example: https://entaciónrtelecom.herokuapp.com/)
+              Data mining through python (web app example: https://ecuadortelecom.herokuapp.com/)
               Financial, investment and market evaluation to obtain the greatest economic benefit for clients. 
               Focused on project analysis using financial economic criteria such as Net Present Value, 
               Internal Rate of Return, profit margins.
