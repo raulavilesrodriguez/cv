@@ -70,7 +70,7 @@ const IndexPage = () => (
               (https://segurosideal.netlify.app/ https://segurosideal.herokuapp.com/)
               Database construction in SQL, postgresql, sqlite. Advanced handling of excel.
               Backend programming through nodejs (API Rest). (example: https://seguros-back.herokuapp.com/)
-              Programming in python, Flask, django, javascript, html, CSS, SASS (front end). 
+              Programming in python, Flask, django, javascript, html, CSS, SASS (front end).
               Management of Heroku, GIT.
               Data mining through python (web app example: https://ecuadortelecom.herokuapp.com/)
               Financial, investment and market evaluation to obtain the greatest economic benefit for clients. 
