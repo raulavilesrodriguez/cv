@@ -64,18 +64,28 @@ const IndexPage = () => (
             <div className="resume-content">
               <h3 className="mb-0">Market Analyst</h3>
               <div className="subheading mb-3">Arcotel</div>
+              <div>
               <p>
               Data analysis through R to determine the impact the interconnection charges in telecommunications industry 
               (https://github.com/raulavilesrodriguez/interconexion_r) (https://ideaviles.shinyapps.io/interconexionr/)
+              </p>
+              <p>
               Data analysis through R to determine the consistency of the information sent by the mobile operators. Calculate market concentration 
               payout percentages (https://github.com/raulavilesrodriguez/market_concentration) (example:  https://ideaviles.shinyapps.io/concentracionsma/)
+              </p>
+              <p>
               Data analysis through R to process of statistical information of:  
               Internet service (https://github.com/raulavilesrodriguez/sai_processing)
               Audio and video subscription service (https://github.com/raulavilesrodriguez/avs_arcotel)
+              </p>
+              <p>
               Design of a model of the expansion plan of the mobile service (https://github.com/raulavilesrodriguez/expansion_sma)
+              </p>
+              <p>
               Design of models to measure the impact of regulatory measures (https://github.com/raulavilesrodriguez/norma_derechos_clientes)
               Data mining through python (web app example: https://github.com/raulavilesrodriguez/telcomec)
               </p>
+              </div>
             </div>
             <div className="resume-date text-md-right">
               <span className="text-primary">Jan 2020 - Present</span>
