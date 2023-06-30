@@ -85,24 +85,33 @@ const IndexPage = () => (
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
               <h3 className="mb-0">Developer</h3>
-              <div className="subheading mb-3">Indepent</div>
+              <div className="subheading mb-3">Independet</div>
+              <div>
               <p>
               Design of financial models to predict the movements of the stocks using machine learning in R 
-              (https://github.com/raulavilesrodriguez/finance_R) 
+              (https://github.com/raulavilesrodriguez/finance_R)
+              </p>
+              <p>
               Program development to scrapy with rvest in R and python. These programs bypass the bots of the diferentes pages. 
               (example: https://github.com/raulavilesrodriguez/scrapy_R) (https://ideaviles.shinyapps.io/plusvaliam/)
+              </p>
+              <p>
               Design and implementation of web apps with Python, JavaScript, and SQL using frameworks 
               like Django (back end), React, and Bootstrap. Implementation with Redux. Insurance.
               (example: https://github.com/raulavilesrodriguez/seguros_nettlify)
+              </p>
+              <p>
               Database construction in SQL, postgresql, sqlite. Advanced handling of excel.
               Backend programming through nodejs (API Rest). Insurance. (example: https://github.com/raulavilesrodriguez/seguros_sqlite_postgresql)
               Programming in python, Flask, django, javascript, html, CSS, SASS (front end).
               Management of Heroku, GIT.
-              Data mining through python (web app example: https://github.com/raulavilesrodriguez/telcomec)
+              </p>
+              <p>
               Financial, investment and market evaluation to obtain the greatest economic benefit for clients. 
               Focused on project analysis using financial economic criteria such as Net Present Value, 
               Internal Rate of Return, profit margins.
               </p>
+              </div>
             </div>
             <div className="resume-date text-md-right">
               <span className="text-primary">Oct 2018 - Present</span>
