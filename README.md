@@ -6,7 +6,6 @@ For an overview of the project structure please refer to the [Gatsby documentati
 
 Check online preview [here](https://raulaviles.netlify.app/)
 
-
 ## Install
 
 Make sure that you have the Gatsby CLI program installed:
@@ -21,4 +20,3 @@ Then you can run it by:
 npm install
 gatsby develop
 ```
-

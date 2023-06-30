@@ -65,26 +65,32 @@ const IndexPage = () => (
               <h3 className="mb-0">Market Analyst</h3>
               <div className="subheading mb-3">Arcotel</div>
               <div>
-              <p>
+              <div>
               Data analysis through R to determine the impact the interconnection charges in telecommunications industry 
-              (https://github.com/raulavilesrodriguez/interconexion_r) (https://ideaviles.shinyapps.io/interconexionr/)
-              </p>
-              <p>
+              <a href="https://github.com/raulavilesrodriguez/interconexion_r">interconexion repository</a>
+              <a href="https://ideaviles.shinyapps.io/interconexionr/">interconexion web app</a>
+              </div>
+              <div>
               Data analysis through R to determine the consistency of the information sent by the mobile operators. Calculate market concentration 
-              payout percentages (https://github.com/raulavilesrodriguez/market_concentration) (example:  https://ideaviles.shinyapps.io/concentracionsma/)
-              </p>
-              <p>
-              Data analysis through R to process of statistical information of:  
-              Internet service (https://github.com/raulavilesrodriguez/sai_processing)
-              Audio and video subscription service (https://github.com/raulavilesrodriguez/avs_arcotel)
-              </p>
-              <p>
-              Design of a model of the expansion plan of the mobile service (https://github.com/raulavilesrodriguez/expansion_sma)
-              </p>
-              <p>
-              Design of models to measure the impact of regulatory measures (https://github.com/raulavilesrodriguez/norma_derechos_clientes)
-              Data mining through python (web app example: https://github.com/raulavilesrodriguez/telcomec)
-              </p>
+              payout percentages
+              <a href="https://github.com/raulavilesrodriguez/market_concentration"> concentration repository</a>
+              <a href="https://ideaviles.shinyapps.io/concentracionsma/">concentration web app</a>
+              </div>
+              <div>
+              Data analysis through R to process of statistical information of: 
+              <a href="https://github.com/raulavilesrodriguez/sai_processing"> Internet service repository</a> 
+              <a href="https://github.com/raulavilesrodriguez/avs_arcotel"> Audio and video subscription service repository</a>
+              </div>
+              <div>
+              Design of a model of the expansion plan of the mobile service 
+              <a href="https://github.com/raulavilesrodriguez/expansion_sma"> Expansion plan repository</a>
+              </div>
+              <div>
+              Design of models to measure the impact of regulatory measures 
+              <a href="https://github.com/raulavilesrodriguez/norma_derechos_clientes"> Norma clientes repository</a>
+              Data mining through python 
+              <a href="https://github.com/raulavilesrodriguez/telcomec"> telecom series repository</a>
+              </div>
               </div>
             </div>
             <div className="resume-date text-md-right">
@@ -97,25 +103,26 @@ const IndexPage = () => (
               <h3 className="mb-0">Developer</h3>
               <div className="subheading mb-3">Independent</div>
               <div>
-              <p>
+              <div>
               Design of financial models to predict the movements of the stocks using machine learning in R 
-              (https://github.com/raulavilesrodriguez/finance_R)
-              </p>
-              <p>
+              <a href="https://github.com/raulavilesrodriguez/finance_R"> financial models repository</a>
+              </div>
+              <div>
               Program development to scrapy with rvest in R and python. These programs bypass the bots of the diferentes pages. 
-              (example: https://github.com/raulavilesrodriguez/scrapy_R) (https://ideaviles.shinyapps.io/plusvaliam/)
-              </p>
-              <p>
+              <a href="https://github.com/raulavilesrodriguez/scrapy_R"> scrapy plusvalia model repository</a>
+              <a href="https://ideaviles.shinyapps.io/plusvaliam/"> scrapy plusvalia model web app</a>
+              </div>
+              <div>
               Design and implementation of web apps with Python, JavaScript, and SQL using frameworks 
               like Django (back end), React, and Bootstrap. Implementation with Redux. Insurance.
-              (example: https://github.com/raulavilesrodriguez/seguros_nettlify)
-              </p>
-              <p>
+              <a href="https://github.com/raulavilesrodriguez/seguros_nettlify"> fronted Insurance repository</a>
+              </div>
+              <div>
               Database construction in SQL, postgresql, sqlite. Advanced handling of excel.
-              Backend programming through nodejs (API Rest). Insurance. (example: https://github.com/raulavilesrodriguez/seguros_sqlite_postgresql)
-              Programming in python, Flask, django, javascript, html, CSS, SASS (front end).
-              Management of Heroku, GIT.
-              </p>
+              Backend programming through nodejs (API Rest). Insurance. 
+              <a href="https://github.com/raulavilesrodriguez/seguros_sqlite_postgresql"> backend Insurance repository</a>
+              Management of GIT.
+              </div>
               <p>
               Financial, investment and market evaluation to obtain the greatest economic benefit for clients. 
               Focused on project analysis using financial economic criteria such as Net Present Value, 
