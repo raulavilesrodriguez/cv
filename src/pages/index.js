@@ -360,6 +360,10 @@ const IndexPage = () => (
               <i className="fa-li fa fa-check"></i>
               Agile Development &amp; Autodidact
             </li>
+            <li>
+              <i className="fa-li fa fa-check"></i>
+              Data analysis through R and python
+            </li>
           </ul>
         </div>
       </section>
