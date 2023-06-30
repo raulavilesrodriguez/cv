@@ -95,7 +95,7 @@ const IndexPage = () => (
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
               <h3 className="mb-0">Developer</h3>
-              <div className="subheading mb-3">Independet</div>
+              <div className="subheading mb-3">Independent</div>
               <div>
               <p>
               Design of financial models to predict the movements of the stocks using machine learning in R 
