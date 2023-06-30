@@ -68,7 +68,7 @@ const IndexPage = () => (
               <div>
               Data analysis through R to determine the impact the interconnection charges in telecommunications industry 
               <a href="https://github.com/raulavilesrodriguez/interconexion_r">interconexion repository</a>
-              &nbsp;
+              <br> </br>
               <a href="https://ideaviles.shinyapps.io/interconexionr/">interconexion web app</a>
               </div>
               <div>
