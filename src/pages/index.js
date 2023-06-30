@@ -66,7 +66,7 @@ const IndexPage = () => (
               <div className="subheading mb-3">Arcotel</div>
               <div>
               <div>
-              Data analysis through R to determine the impact the interconnection charges in telecommunications industry
+              Data analysis through R to determine the impact the interconnection charges in telecommunications industry 
               &nbsp;&nbsp;&nbsp;  
               <a href="https://github.com/raulavilesrodriguez/interconexion_r">interconexion repository</a>
               <br> </br>
