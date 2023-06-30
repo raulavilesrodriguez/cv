@@ -68,27 +68,32 @@ const IndexPage = () => (
               <div>
               Data analysis through R to determine the impact the interconnection charges in telecommunications industry 
               <a href="https://github.com/raulavilesrodriguez/interconexion_r">interconexion repository</a>
+              &nbsp;
               <a href="https://ideaviles.shinyapps.io/interconexionr/">interconexion web app</a>
               </div>
               <div>
               Data analysis through R to determine the consistency of the information sent by the mobile operators. Calculate market concentration 
               payout percentages
               <a href="https://github.com/raulavilesrodriguez/market_concentration"> concentration repository</a>
+              &nbsp;
               <a href="https://ideaviles.shinyapps.io/concentracionsma/">concentration web app</a>
               </div>
               <div>
               Data analysis through R to process of statistical information of: 
               <a href="https://github.com/raulavilesrodriguez/sai_processing"> Internet service repository</a> 
+              &nbsp;
               <a href="https://github.com/raulavilesrodriguez/avs_arcotel"> Audio and video subscription service repository</a>
               </div>
               <div>
-              Design of a model of the expansion plan of the mobile service 
+              Design of a model of the expansion plan of the mobile service &nbsp;
               <a href="https://github.com/raulavilesrodriguez/expansion_sma"> Expansion plan repository</a>
               </div>
               <div>
-              Design of models to measure the impact of regulatory measures 
+              Design of models to measure the impact of regulatory measures &nbsp;
               <a href="https://github.com/raulavilesrodriguez/norma_derechos_clientes"> Norma clientes repository</a>
+              &nbsp;
               Data mining through python 
+              &nbsp;
               <a href="https://github.com/raulavilesrodriguez/telcomec"> telecom series repository</a>
               </div>
               </div>
@@ -104,22 +109,23 @@ const IndexPage = () => (
               <div className="subheading mb-3">Independent</div>
               <div>
               <div>
-              Design of financial models to predict the movements of the stocks using machine learning in R 
+              Design of financial models to predict the movements of the stocks using machine learning in R &nbsp;
               <a href="https://github.com/raulavilesrodriguez/finance_R"> financial models repository</a>
               </div>
               <div>
               Program development to scrapy with rvest in R and python. These programs bypass the bots of the diferentes pages. 
               <a href="https://github.com/raulavilesrodriguez/scrapy_R"> scrapy plusvalia model repository</a>
+              &nbsp;
               <a href="https://ideaviles.shinyapps.io/plusvaliam/"> scrapy plusvalia model web app</a>
               </div>
               <div>
               Design and implementation of web apps with Python, JavaScript, and SQL using frameworks 
-              like Django (back end), React, and Bootstrap. Implementation with Redux. Insurance.
+              like Django (back end), React, and Bootstrap. Implementation with Redux. Insurance. &nbsp;
               <a href="https://github.com/raulavilesrodriguez/seguros_nettlify"> fronted Insurance repository</a>
               </div>
               <div>
               Database construction in SQL, postgresql, sqlite. Advanced handling of excel.
-              Backend programming through nodejs (API Rest). Insurance. 
+              Backend programming through nodejs (API Rest). Insurance. &nbsp;
               <a href="https://github.com/raulavilesrodriguez/seguros_sqlite_postgresql"> backend Insurance repository</a>
               Management of GIT.
               </div>
