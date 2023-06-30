@@ -68,10 +68,11 @@ const IndexPage = () => (
               <div>
               Data analysis through R to determine the impact the interconnection charges in 
               telecommunications industry 
-              <p>.  &nbsp;</p>  
+              <div> 
               <a href="https://github.com/raulavilesrodriguez/interconexion_r">interconexion repository</a>
               <br> </br>
               <a href="https://ideaviles.shinyapps.io/interconexionr/">interconexion web app</a>
+              </div>
               </div>
               <div>
               Data analysis through R to determine the consistency of the information sent by the mobile operators. Calculate market concentration 
