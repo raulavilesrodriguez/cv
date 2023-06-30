@@ -62,24 +62,50 @@ const IndexPage = () => (
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Consultor</h3>
-              <div className="subheading mb-3">Independent</div>
+              <h3 className="mb-0">Market Analyst</h3>
+              <div className="subheading mb-3">Arcotel</div>
               <p>
+              Data analysis through R to determine the impact the interconnection charges in telecommunications industry 
+              (https://github.com/raulavilesrodriguez/interconexion_r) (https://ideaviles.shinyapps.io/interconexionr/)
+              Data analysis through R to determine the consistency of the information sent by the mobile operators. Calculate market concentration 
+              payout percentages (https://github.com/raulavilesrodriguez/market_concentration) (example:  https://ideaviles.shinyapps.io/concentracionsma/)
+              Data analysis through R to process of statistical information of:  
+              Internet service (https://github.com/raulavilesrodriguez/sai_processing)
+              Audio and video subscription service (https://github.com/raulavilesrodriguez/avs_arcotel)
+              Design of a model of the expansion plan of the mobile service (https://github.com/raulavilesrodriguez/expansion_sma)
+              Design of models to measure the impact of regulatory measures (https://github.com/raulavilesrodriguez/norma_derechos_clientes)
+              Data mining through python (web app example: https://github.com/raulavilesrodriguez/telcomec)
+              </p>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">Jan 2020 - Present</span>
+            </div>
+          </div>
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
+              <h3 className="mb-0">Developer</h3>
+              <div className="subheading mb-3">Indepent</div>
+              <p>
+              Design of financial models to predict the movements of the stocks using machine learning in R 
+              (https://github.com/raulavilesrodriguez/finance_R) 
+              Program development to scrapy with rvest in R and python. These programs bypass the bots of the diferentes pages. 
+              (example: https://github.com/raulavilesrodriguez/scrapy_R) (https://ideaviles.shinyapps.io/plusvaliam/)
               Design and implementation of web apps with Python, JavaScript, and SQL using frameworks 
-              like Django (back end), React, and Bootstrap. Implementation with Redux. 
-              (https://segurosideal.netlify.app/ https://segurosideal.herokuapp.com/)
+              like Django (back end), React, and Bootstrap. Implementation with Redux. Insurance.
+              (example: https://github.com/raulavilesrodriguez/seguros_nettlify)
               Database construction in SQL, postgresql, sqlite. Advanced handling of excel.
-              Backend programming through nodejs (API Rest). (example: https://seguros-back.herokuapp.com/)
+              Backend programming through nodejs (API Rest). Insurance. (example: https://github.com/raulavilesrodriguez/seguros_sqlite_postgresql)
               Programming in python, Flask, django, javascript, html, CSS, SASS (front end).
               Management of Heroku, GIT.
-              Data mining through python (web app example: https://ecuadortelecom.herokuapp.com/)
+              Data mining through python (web app example: https://github.com/raulavilesrodriguez/telcomec)
               Financial, investment and market evaluation to obtain the greatest economic benefit for clients. 
               Focused on project analysis using financial economic criteria such as Net Present Value, 
               Internal Rate of Return, profit margins.
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">Oct 2018 - Present</span>
+              <span className="text-primary">Jan 2020 - Present</span>
             </div>
           </div>
 
@@ -88,7 +114,7 @@ const IndexPage = () => (
               <h3 className="mb-0">Regional Intendant</h3>
               <div className="subheading mb-3">Arcotel</div>
               <p>
-              Management and database design in excel and sql.
+              Management and database design in excel and sqlite.
               In charge of the execution and supervision of administrative 
               sanctioning procedures for telecommunications companies.
               </p>
@@ -104,7 +130,7 @@ const IndexPage = () => (
               <div className="subheading mb-3">Arcotel</div>
               <p>
                 Advanced excel management.
-                Database construction in SQL.
+                Database construction in sqlite.
                 In charge of carrying out the economic projection of the budget of the 
                 Technical Direction considering risk criteria and expenditure trends from previous years.
               </p>
@@ -119,7 +145,7 @@ const IndexPage = () => (
               <h3 className="mb-0">Director in Evaluation of Telecommunications Companies</h3>
               <div className="subheading mb-3">MINTEL</div>
               <p>
-                Database management through excel and sql.
+                Database management through excel.
                 I was in charge of the supervision and evaluation direction of telecommunications 
                 companies at MINTEL, where I led, coordinated and carried out the financial, economic 
                 and market evaluation analysis of telecommunications companies. Additionally, 
@@ -136,7 +162,7 @@ const IndexPage = () => (
               <h3 className="mb-0">Institutional Advisor</h3>
               <div className="subheading mb-3">SENATEL</div>
               <p>
-              Database management through excel and sql.
+              Database management through excel.
               I worked in the Planning Directorate where I worked as Institutional Advisor, 
               where I was in charge of the technical-economic analysis of several projects 
               that were executed for the institution, such as, for example, I performed statistical 
