@@ -62,6 +62,58 @@ const IndexPage = () => (
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
+              <h3 className="mb-0">Software Developer, Investor & Product Builder</h3>
+              <div className="subheading mb-3">Independent</div>
+                <div>
+                  <div>
+                    Development of Android applications using Kotlin, Jetpack Compose, Firebase, and Google Cloud. 
+                    Currently developing <strong>WinApp</strong>, an Android application published on the 
+                    <strong>Google Play Store</strong>.
+                    &nbsp;
+                    <a href="https://play.google.com/">WinApp on Google Play</a>
+                  </div>
+
+                  <div>
+                    Development and integration of cloud-based solutions using 
+                    <strong>Google Cloud, Firebase, Cloud Functions, Firestore, and Cloud Storage</strong>, 
+                    including backend services, databases, authentication, and automated processes.
+                  </div>
+
+                  <div>
+                    Development of web scraping and data-processing systems using <strong>Python</strong>, 
+                    extracting real-estate information from online platforms, processing and analyzing the data, 
+                    and storing the resulting datasets in <strong>Google Cloud Storage</strong>.
+                  </div>
+
+                  <div>
+                    Currently learning and developing applications with 
+                    <strong>Kotlin Multiplatform (KMP)</strong>, exploring code sharing across Android and other platforms.
+                  </div>
+
+                  <div>
+                    Database development and management using <strong>SQL, PostgreSQL, SQLite, and Firestore</strong>. 
+                    Backend development with APIs, cloud functions, and server-side services.
+                  </div>
+
+                  <div>
+                    Version control and collaborative development using <strong>Git and GitHub</strong>.
+                  </div>
+
+                  <p>
+                    Financial, investment, and market analysis to evaluate projects and identify opportunities 
+                    using financial criteria such as Net Present Value, Internal Rate of Return, profitability 
+                    margins, and market valuation.
+                  </p>
+                </div>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">Jan 2025 - Present</span>
+            </div>
+          </div>
+
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
               <h3 className="mb-0">Market Analyst</h3>
               <div className="subheading mb-3">Arcotel</div>
               <div>
@@ -103,7 +155,7 @@ const IndexPage = () => (
               </div>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">Jan 2020 - Present</span>
+              <span className="text-primary">Jan 2020 - Dic 2024</span>
             </div>
           </div>
 
