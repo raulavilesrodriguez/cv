@@ -67,7 +67,7 @@ const IndexPage = () => (
                 <div>
                   <div>
                     Development of Android applications using Kotlin, Jetpack Compose, Firebase, and Google Cloud. 
-                    Currently developing <strong>WinApp</strong>, an Android application published on the 
+                    Developed and published <strong>WinApp</strong>, an Android application available on the 
                     <strong>Google Play Store</strong>.
                     &nbsp;
                     <a href="https://play.google.com/">WinApp on Google Play</a>
