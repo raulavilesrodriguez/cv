@@ -35,6 +35,6 @@ module.exports = {
     },
   ],
   email: 'bravilesr@gmail.com',
-  phone: '(593)984059883',
+  phone: '(593)958804848',
   address: 'Quito Ecuador',
 };
