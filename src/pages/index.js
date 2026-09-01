@@ -415,6 +415,10 @@ const IndexPage = () => (
           <ul className="fa-ul mb-0">
             <li>
               <i className="fa-li fa fa-check"></i>
+              Android, KMP, Kotlin, Jetpack Compose, Firebase, Google Cloud
+            </li>
+            <li>
+              <i className="fa-li fa fa-check"></i>
               Mobile-First, Responsive Design
             </li>
             <li>
