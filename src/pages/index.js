@@ -86,8 +86,9 @@ const IndexPage = () => (
                   </div>
 
                   <div>
-                    Currently learning and developing applications with 
-                    <strong>Kotlin Multiplatform (KMP)</strong>, exploring code sharing across Android and other platforms.
+                    Developing a real-estate investment platform using <strong> Kotlin Multiplatform (KMP)</strong>, 
+                    building cross-platform applications for Android, iOS, and Web. The project focuses on real-estate market analysis, 
+                    property valuation, and identifying investment opportunities.
                   </div>
 
                   <div>
